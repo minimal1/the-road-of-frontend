@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        ul li {
+            color: red;
+            text-decoration: underline
+        }
+
+        #test>li {
+            border: 1px solid red;
+        }
+
+        ul,ol{
+            background-color: aquamarine
+        }
+
+        #test:hover{
+            background-color: black
+        }
+        #test:active{
+            color: white
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <ol id="test">
+        <li>HTML</li>
+        <li>CSS
+            <ol>
+                <li>selector</li>
+                <li>decoration</li>
+            </ol>
+        </li>
+        <li>JavaScript</li>
+    </ol>
+</body>
+
+</html>
